@@ -1,5 +1,5 @@
 # Creating the Fourth Plot: 4 plots in one
-# Plot to be saved in plot1.png
+# Plot to be saved in plot4.png
 
 # Loading Relevant Libraries for Table and Time manipulation
 library(dplyr)
@@ -49,6 +49,6 @@ plot(hpc2$Global_reactive_power, type = "s", xlab="datetime", axes=FALSE)
 
 
 
-#Export plot to plot2.png file
+#Export plot to plot4.png file
 dev.copy(png, file = "plot4.png", width = 480, height = 480)
 dev.off()
